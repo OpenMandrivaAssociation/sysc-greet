@@ -1,13 +1,13 @@
 %global debug_package %{nil}
 
 Name:		sysc-greet
-Version:	1.1.11
+Version:	1.3.0
 Release:	1
 Source0:	https://github.com/Nomadcxx/sysc-greet/archive/refs/tags/v%{version}.tar.gz#/%{name}-%{version}.tar.gz
 ### Source1 vendor instructions ###
 # from within source tree run the following:
 # go mod vendor
-# tar -cJvf sysc-greet-1.1.9-vendor.tar.xz vendor
+# tar -cJvf sysc-greet-VERSION-vendor.tar.xz vendor
 # place the vendor archive alongside the source archive
 Source1:	%{name}-%{version}-vendor.tar.xz
 Summary:	A graphical console greeter for greetd
