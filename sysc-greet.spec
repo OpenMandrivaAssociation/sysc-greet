@@ -1,7 +1,7 @@
 %global debug_package %{nil}
 
 Name:		sysc-greet
-Version:	1.3.0
+Version:	1.3.1
 Release:	1
 Source0:	https://github.com/Nomadcxx/sysc-greet/archive/refs/tags/v%{version}.tar.gz#/%{name}-%{version}.tar.gz
 ### Source1 vendor instructions ###
